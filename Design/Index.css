@@ -1,0 +1,82 @@
+.login_ctr {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  max-width: 100%;
+}
+.login_ctr>div:nth-child(2) {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.login_ctr>div:first-child {
+    height: 90%;
+    flex: 1.2;
+  }
+  .login_ctr>div:first-child>img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  ._login_form{
+    margin-top: 2rem;
+    border-radius: 5px;
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+  }
+  .form_ctr {
+    height: 75%;
+  }
+  ._login_inputs_ctr {
+    flex: 2;
+  }
+  
+  .login-btn-ctr {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .form_btns{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  @media screen and (max-width: 2560px) {
+    .form_ctr {
+      width: 500px;
+      height: 60%;
+    }
+  }
+  
+  @media screen and (max-width: 1500px) {
+    .form_ctr {
+      width: 350px;
+      height: 70%;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .form_ctr {
+      width: 300px;
+      height: 75%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .login_ctr>div:first-child {
+      display: none;
+    }
+  
+    .form_ctr {
+      width: 300px;
+    }
+  }
+  
