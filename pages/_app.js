@@ -7,6 +7,8 @@ import "../Components/infoBox/InfoBox.scss";
 import "../Design/Search.scss";
 import "../Components/sidebar/Sidebar.scss";
 import "../Design/newbss.css";
+import "../Design/register.css";
+import "../Design/category.scss";
 
 export default function Pharmacy({ Component, pageProps }) {
   return (

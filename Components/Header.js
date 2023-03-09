@@ -7,7 +7,7 @@ export default ()=>{
         <header>
             <nav className="hd_nav_ctr">
                 <div className="hd_nav">
-                    <div>Pharmacy Management</div>
+                    <div className="hd_info">Pharmacy Management</div>
                     <Link legacyBehavior href="/">
                     <a className="hd_logo">
                         <img

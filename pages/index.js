@@ -1,5 +1,8 @@
 import { Button, TextField } from "@mui/material";
 import Header from "../Components/Header";
+import { BiLogIn } from "react-icons/bi";
+import Link from "next/link";
+
 
 const Home = () => {
   return (
@@ -10,8 +13,12 @@ const Home = () => {
           <div>
             <img src="/pharm.svg" alt="Pharmacy" />
           </div>
-          <div className="form_ctr card">
+          <div className="form_ctr __card">
             <form className="_login_form">
+            <div className="--flex-center">
+           <BiLogIn size={35} color="#999" />
+        </div>
+        <h2 style={{ textAlign: "center", color: "red" }}>Login</h2>
               <div className="_login_inputs_ctr">
                 <TextField
                   variant="outlined"
@@ -40,6 +47,22 @@ const Home = () => {
                 Submit
                 </Button>
              </div>
+             <div style={{ width: "100%", marginBlock: "10px", color:"blue", alignItems:"center"}}>
+                Not Registered?
+                <Link legacyBehavior href="/user/register">
+                  <a>
+                    <span
+                      style={{
+                        textDecoration: "underline",
+                        color: "blue",
+                        marginLeft: "5px",
+                      }}
+                    >
+                      Register Here
+                    </span>
+                  </a>
+                </Link>
+              </div>
             </form>
           </div>
         </div>
