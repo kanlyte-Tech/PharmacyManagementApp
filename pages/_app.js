@@ -6,6 +6,8 @@ import "../Design/Product.scss";
 import "../Components/infoBox/InfoBox.scss";
 import "../Design/Search.scss";
 import "../Components/sidebar/Sidebar.scss";
+import "../Design/register.css";
+import "../Design/category.scss";
 
 
 
