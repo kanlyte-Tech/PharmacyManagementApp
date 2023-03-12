@@ -4,7 +4,7 @@ import React from "react";
 export default ()=>{
     return(
         <>
-        <header>
+        <div className="header1">
             <nav className="hd_nav_ctr">
                 <div className="hd_nav">
                     <div className="hd_info">Pharmacy Management</div>
@@ -20,7 +20,7 @@ export default ()=>{
 
                 </div>
             </nav>
-        </header>
+        </div>
         </>
     );
 }

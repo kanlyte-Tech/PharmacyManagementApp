@@ -1,9 +1,9 @@
 import React from "react";
-import MainHeader from "../header/MainHeader";
+import Header_2 from "../header/header2";
 const Layout = ({ children }) => {
   return (
     <>
-      <MainHeader />
+      <Header_2 />
       <div style={{ minHeight: "80vh" }} className="--pad">
         {children}
       </div>
